@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Hello world!	</title>
-	<atom:link href="/shawnphenry.com/hello-world/feed/" rel="self" type="application/rss+xml" />
-	<link>/shawnphenry.com/hello-world/</link>
+	<atom:link href="http://shawnphenry.com/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>http://shawnphenry.com/hello-world/</link>
 	<description></description>
 	<lastBuildDate>Thu, 27 Apr 2023 23:43:01 +0000</lastBuildDate>
 	<sy:updatePeriod>
