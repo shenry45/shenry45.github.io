@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Comments for Shawn Henry	</title>
-	<atom:link href="http://shawnphenry.com/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>http://shawnphenry.com/</link>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description></description>
-	<lastBuildDate>Mon, 12 Jun 2023 04:42:54 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 14 Sep 2023 14:02:22 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3.1</generator>
 </channel>
 </rss>

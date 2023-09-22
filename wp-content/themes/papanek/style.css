@@ -6,9 +6,9 @@ Author: Roman Fink
 Author URI: https://romanfink.com
 Description: Papanek is a minimalistic block theme with Full Site Editing feature, development for agencies and freelancer to get help quikly launch simple and clear website. Create simple and clear landing pages effortlessly with 54 ready-to-use patterns. Inspired by Victor Papanek.
 Requires at least: 6.2
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 5.7
-Version: 1.0.3
+Version: 1.2.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: papanek
@@ -16,6 +16,30 @@ Tags: one-column, custom-colors, custom-menu, editor-style, full-site-editing, b
 
 */
 
+/* --- Submenu background and colors --- */
+.wp-block-navigation ul.wp-block-navigation-submenu {
+    background: var(--wp--preset--color--background-secondary) !important;
+    border: none !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+.wp-block-navigation .wp-block-navigation-submenu li a {
+    color: var(--wp--preset--color--primary) !important;
+}
+
+.wp-block-navigation li a:hover {
+    color: var(--wp--preset--color--secondary) !important;
+}
+
+/* --- Links border control --- */
+.wp-block-site-logo a {
+    border: none;
+}
+
+a:has(img) {
+    border: none;
+}
 
 /* --- Stick footer to bottom --- */
 
